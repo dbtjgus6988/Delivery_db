@@ -1,0 +1,13 @@
+[ customer 테이블에 스키마 추가 ] 
+- jjim(주문하려고 준비하는 스토어 넘버)
+- address 
+- cart
+
+[ order 테이블 추가 ]
+
+[ import ]
+import time
+import argparse
+from helpers.connection import conn
+from DataTime import datatime
+import json
